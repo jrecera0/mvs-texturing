@@ -32,8 +32,8 @@ externalproject_add(ext_eigen
 
 externalproject_add(ext_mve
     PREFIX          mve
-    GIT_REPOSITORY  https://github.com/OpenDroneMap/mve.git
-    GIT_TAG         099
+    GIT_REPOSITORY  https://github.com/jrecera0/mve.git
+    GIT_TAG         master
     UPDATE_COMMAND  ""
     SOURCE_DIR      ${CMAKE_SOURCE_DIR}/elibs/mve
     CONFIGURE_COMMAND ""
